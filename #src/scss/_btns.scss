@@ -1,0 +1,104 @@
+.ui {
+	&-btn {
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		font-family: 'Millimetre';
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 15px;
+		letter-spacing: 0.07em;
+		border:transparent solid 1px;
+		padding:5px 26px;
+
+		&__inner {
+			display:flex;
+			align-items:center;
+			justify-content:center;
+		}
+
+		&__text {
+			display:block;
+		}
+
+		&__icon {
+			display:block;
+			width:24px;
+			height:24px;
+
+			& svg {
+				transition:all .2s;
+			}
+
+			&--r {
+				margin:0 -8px 0 3px;
+			}
+
+			&--l {
+				margin:0 3px 0 -8px;
+			}
+		}
+
+		&--h1 {
+			min-height:42px;
+		}
+
+		&--lilac-border {
+			border-color:#DDD9EE;
+			color:#AEA8CD;
+
+			& svg {
+				fill:#AEA8CD;
+			}
+
+			html.no-touch &:hover {
+				background-color:$color-acc;
+				border-color:$color-acc;
+				color:#fff;
+
+				& svg {
+					fill:#fff;
+				}
+			}
+		}
+
+		&--lilac {
+			border-color:$color-bg;
+			color:$color-acc;
+			background-color:$color-bg;
+
+			& svg {
+				fill:#7E48E4;
+			}
+
+			html.no-touch &:hover {
+				background-color:$color-acc;
+				border-color:$color-acc;
+				color:#fff;
+
+				& svg {
+					fill:#fff;
+				}
+			}
+		}
+
+		&--black {
+			border-color:$color-text;
+			background-color:$color-text;
+			color:#fff;
+
+			& svg {
+				fill:#fff;
+			}
+
+			html.no-touch &:hover {
+				background-color:$color-acc;
+				border-color:$color-acc;
+			}
+		}
+	}
+}
+
+button {
+	@include noselect;
+}

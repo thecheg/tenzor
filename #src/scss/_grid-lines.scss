@@ -1,0 +1,17 @@
+.grid-lines {
+	--linesC:rgba(255,0,0,.1);
+	&:before {
+		content:'';
+		position:fixed;
+		left:50%;
+		top:0;
+		bottom:0;
+		width:calc(100% - (2 * var(--contP)));
+		max-width:var(--contW);
+		pointer-events:none;
+		z-index:10;
+		transform:translateX(-50%);
+		border-left:var(--linesC) solid 1px;
+		border-right:var(--linesC) solid 1px;
+	}
+}

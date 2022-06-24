@@ -1,0 +1,164 @@
+	<div class="popups-overlay"></div>
+	<div class="popup popup--thx" id="thx">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__close-container popup__content--thx">
+				<div class="popup__inner">
+					<div class="popup-head">
+						<div class="popup-head__title">
+							Спасибо за&nbsp;заявку!
+						</div>
+						<div class="popup-head__subtitle">
+							Наш менеджер свяжется с&nbsp;вами в&nbsp;ближайшее время
+						</div>
+					</div>
+					<div class="popup__thx-btn">
+						<button class="ui-btn ui-btn--1" onclick="popupClose();">
+							Закрыть
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup--request" id="callback">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__close-container popup__content--request">
+				<div class="popup__inner">
+					<div class="popup-head">
+						<div class="popup-head__title">
+							Заказать звонок
+						</div>
+						<div class="popup-head__subtitle">
+							Оставьте заявку, и&nbsp;наш специалист свяжется с&nbsp;вами в&nbsp;ближайшее время
+						</div>
+					</div>
+					<div class="popup__form">
+						<form class="form send-form" data-form-type="callback" data-thxpopup="thx">
+							<div class="ui-form-field ui-form-field--required" data-field-type="text">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваше имя</span>
+									<input type="text" name="name" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--required" data-field-type="phone">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваш телефон</span>
+									<input type="number" name="phone" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--btn">
+								<button class="ui-btn ui-btn--1">
+									<span class="ui-btn__text">
+										Заказать звонок
+									</span>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup--request" id="request">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__close-container popup__content--request">
+				<div class="popup__inner">
+					<div class="popup-head">
+						<div class="popup-head__title">
+							Оставить заявку
+						</div>
+						<div class="popup-head__subtitle">
+							Оставьте заявку, и&nbsp;наш специалист свяжется с&nbsp;вами в&nbsp;ближайшее время
+						</div>
+					</div>
+					<div class="popup__form">
+						<form class="form send-form" data-form-type="request" data-thxpopup="thx">
+							<div class="ui-form-field ui-form-field--required" data-field-type="text">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваше имя</span>
+									<input type="text" name="name" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--required" data-field-type="phone">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваш телефон</span>
+									<input type="number" name="phone" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--required" data-field-type="email">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваш E-mail</span>
+									<input type="text" name="email" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--btn">
+								<button class="ui-btn ui-btn--1">
+									<span class="ui-btn__text">
+										Оставить заявку
+									</span>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup--request" id="question">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__close-container popup__content--request">
+				<div class="popup__inner">
+					<div class="popup-head">
+						<div class="popup-head__title">
+							Задать вопрос
+						</div>
+						<div class="popup-head__subtitle">
+							Оставьте заявку, и&nbsp;наш специалист свяжется с&nbsp;вами в&nbsp;ближайшее время
+						</div>
+					</div>
+					<div class="popup-form">
+						<form class="form send-form" data-form-type="question" data-thxpopup="thx">
+							<div class="ui-form-field ui-form-field--required" data-field-type="text">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваше имя</span>
+									<input type="text" name="name" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--required" data-field-type="phone">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваш телефон</span>
+									<input type="number" name="phone" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--required" data-field-type="email">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваш E-mail</span>
+									<input type="text" name="email" />
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--required" data-field-type="text">
+								<label class="ui-input">
+									<span class="ui-input__placeholder">Ваш вопрос</span>
+									<textarea name="question"></textarea>
+								</label>
+							</div>
+							<div class="ui-form-field ui-form-field--btn">
+								<button class="ui-btn ui-btn--1">
+									<span class="ui-btn__text">
+										Задать вопрос
+									</span>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup--video" id="video">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__close-container popup__content--video">
+				<div class="popup__video"></div>
+			</div>
+		</div>
+	</div>
