@@ -18905,7 +18905,7 @@ function init() {
 		}
 	});
 	if ('ontouchstart' in document.documentElement) {
-		$('.port-item').each(function() {
+		$('.port-item, .team-item').each(function() {
 			$(this).attr('ontouchstart', '');
 		});
 	}

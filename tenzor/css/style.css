@@ -1124,8 +1124,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(1) {
-	-webkit-animation: clip 5000ms -500ms linear infinite, glitch1 1000ms -1745ms linear infinite;
-	animation: clip 5000ms -500ms linear infinite, glitch1 1000ms -1745ms linear infinite;
+	-webkit-animation: clip 5000ms -500ms linear infinite, glitch1 1000ms -2950ms linear infinite;
+	animation: clip 5000ms -500ms linear infinite, glitch1 1000ms -2950ms linear infinite;
 }
 
 @-webkit-keyframes glitch1 {
@@ -1147,14 +1147,14 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	90% {
-		-webkit-transform: translateX(1px);
-		transform: translateX(1px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(-1px);
-		transform: translateX(-1px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 		color: #fff;
 	}
 
@@ -1183,14 +1183,14 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	90% {
-		-webkit-transform: translateX(1px);
-		transform: translateX(1px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(-1px);
-		transform: translateX(-1px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 		color: #fff;
 	}
 
@@ -1201,8 +1201,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(2) {
-	-webkit-animation: clip 5000ms -1000ms linear infinite, glitch2 1000ms -4025ms linear infinite;
-	animation: clip 5000ms -1000ms linear infinite, glitch2 1000ms -4025ms linear infinite;
+	-webkit-animation: clip 5000ms -1000ms linear infinite, glitch2 1000ms -2825ms linear infinite;
+	animation: clip 5000ms -1000ms linear infinite, glitch2 1000ms -2825ms linear infinite;
 }
 
 @-webkit-keyframes glitch2 {
@@ -1218,8 +1218,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #4E9A26;
 	}
 
@@ -1254,8 +1254,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #4E9A26;
 	}
 
@@ -1278,8 +1278,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(3) {
-	-webkit-animation: clip 5000ms -1500ms linear infinite, glitch3 1000ms -215ms linear infinite;
-	animation: clip 5000ms -1500ms linear infinite, glitch3 1000ms -215ms linear infinite;
+	-webkit-animation: clip 5000ms -1500ms linear infinite, glitch3 1000ms -3055ms linear infinite;
+	animation: clip 5000ms -1500ms linear infinite, glitch3 1000ms -3055ms linear infinite;
 }
 
 @-webkit-keyframes glitch3 {
@@ -1295,20 +1295,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(2px);
-		transform: translateX(2px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(-4px);
+		transform: translateX(-4px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #fff;
 	}
 
@@ -1331,20 +1331,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(2px);
-		transform: translateX(2px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(-4px);
+		transform: translateX(-4px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #fff;
 	}
 
@@ -1355,8 +1355,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(4) {
-	-webkit-animation: clip 5000ms -2000ms linear infinite, glitch4 1000ms -2665ms linear infinite;
-	animation: clip 5000ms -2000ms linear infinite, glitch4 1000ms -2665ms linear infinite;
+	-webkit-animation: clip 5000ms -2000ms linear infinite, glitch4 1000ms -45ms linear infinite;
+	animation: clip 5000ms -2000ms linear infinite, glitch4 1000ms -45ms linear infinite;
 }
 
 @-webkit-keyframes glitch4 {
@@ -1384,8 +1384,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	95% {
-		-webkit-transform: translateX(1px);
-		transform: translateX(1px);
+		-webkit-transform: translateX(-4px);
+		transform: translateX(-4px);
 		color: #fff;
 	}
 
@@ -1420,8 +1420,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	95% {
-		-webkit-transform: translateX(1px);
-		transform: translateX(1px);
+		-webkit-transform: translateX(-4px);
+		transform: translateX(-4px);
 		color: #fff;
 	}
 
@@ -1432,8 +1432,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(5) {
-	-webkit-animation: clip 5000ms -2500ms linear infinite, glitch5 1000ms -4560ms linear infinite;
-	animation: clip 5000ms -2500ms linear infinite, glitch5 1000ms -4560ms linear infinite;
+	-webkit-animation: clip 5000ms -2500ms linear infinite, glitch5 1000ms -2365ms linear infinite;
+	animation: clip 5000ms -2500ms linear infinite, glitch5 1000ms -2365ms linear infinite;
 }
 
 @-webkit-keyframes glitch5 {
@@ -1449,20 +1449,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(-4px);
-		transform: translateX(-4px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(-2px);
-		transform: translateX(-2px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #fff;
 	}
 
@@ -1485,20 +1485,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(-4px);
-		transform: translateX(-4px);
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(-2px);
-		transform: translateX(-2px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #fff;
 	}
 
@@ -1509,8 +1509,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(6) {
-	-webkit-animation: clip 5000ms -3000ms linear infinite, glitch6 1000ms -2515ms linear infinite;
-	animation: clip 5000ms -3000ms linear infinite, glitch6 1000ms -2515ms linear infinite;
+	-webkit-animation: clip 5000ms -3000ms linear infinite, glitch6 1000ms -605ms linear infinite;
+	animation: clip 5000ms -3000ms linear infinite, glitch6 1000ms -605ms linear infinite;
 }
 
 @-webkit-keyframes glitch6 {
@@ -1526,8 +1526,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(5px);
-		transform: translateX(5px);
+		-webkit-transform: translateX(-1px);
+		transform: translateX(-1px);
 		color: #4E9A26;
 	}
 
@@ -1538,8 +1538,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	95% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
+		-webkit-transform: translateX(1px);
+		transform: translateX(1px);
 		color: #fff;
 	}
 
@@ -1562,8 +1562,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(5px);
-		transform: translateX(5px);
+		-webkit-transform: translateX(-1px);
+		transform: translateX(-1px);
 		color: #4E9A26;
 	}
 
@@ -1574,8 +1574,8 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	95% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
+		-webkit-transform: translateX(1px);
+		transform: translateX(1px);
 		color: #fff;
 	}
 
@@ -1586,8 +1586,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(7) {
-	-webkit-animation: clip 5000ms -3500ms linear infinite, glitch7 1000ms -395ms linear infinite;
-	animation: clip 5000ms -3500ms linear infinite, glitch7 1000ms -395ms linear infinite;
+	-webkit-animation: clip 5000ms -3500ms linear infinite, glitch7 1000ms -1255ms linear infinite;
+	animation: clip 5000ms -3500ms linear infinite, glitch7 1000ms -1255ms linear infinite;
 }
 
 @-webkit-keyframes glitch7 {
@@ -1603,20 +1603,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(4px);
-		transform: translateX(4px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(-2px);
-		transform: translateX(-2px);
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(3px);
-		transform: translateX(3px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #fff;
 	}
 
@@ -1639,20 +1639,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(4px);
-		transform: translateX(4px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(-2px);
-		transform: translateX(-2px);
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(3px);
-		transform: translateX(3px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #fff;
 	}
 
@@ -1663,8 +1663,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(8) {
-	-webkit-animation: clip 5000ms -4000ms linear infinite, glitch8 1000ms -825ms linear infinite;
-	animation: clip 5000ms -4000ms linear infinite, glitch8 1000ms -825ms linear infinite;
+	-webkit-animation: clip 5000ms -4000ms linear infinite, glitch8 1000ms -4565ms linear infinite;
+	animation: clip 5000ms -4000ms linear infinite, glitch8 1000ms -4565ms linear infinite;
 }
 
 @-webkit-keyframes glitch8 {
@@ -1680,20 +1680,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(-2px);
-		transform: translateX(-2px);
+		-webkit-transform: translateX(-4px);
+		transform: translateX(-4px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(4px);
-		transform: translateX(4px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(-1px);
+		transform: translateX(-1px);
 		color: #fff;
 	}
 
@@ -1716,20 +1716,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(-2px);
-		transform: translateX(-2px);
+		-webkit-transform: translateX(-4px);
+		transform: translateX(-4px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(4px);
-		transform: translateX(4px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(-1px);
+		transform: translateX(-1px);
 		color: #fff;
 	}
 
@@ -1740,8 +1740,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(9) {
-	-webkit-animation: clip 5000ms -4500ms linear infinite, glitch9 1000ms -1625ms linear infinite;
-	animation: clip 5000ms -4500ms linear infinite, glitch9 1000ms -1625ms linear infinite;
+	-webkit-animation: clip 5000ms -4500ms linear infinite, glitch9 1000ms -3405ms linear infinite;
+	animation: clip 5000ms -4500ms linear infinite, glitch9 1000ms -3405ms linear infinite;
 }
 
 @-webkit-keyframes glitch9 {
@@ -1757,20 +1757,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(3px);
-		transform: translateX(3px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(-1px);
-		transform: translateX(-1px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(1px);
-		transform: translateX(1px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #fff;
 	}
 
@@ -1793,20 +1793,20 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	85% {
-		-webkit-transform: translateX(3px);
-		transform: translateX(3px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 		color: #4E9A26;
 	}
 
 	90% {
-		-webkit-transform: translateX(-1px);
-		transform: translateX(-1px);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(1px);
-		transform: translateX(1px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #fff;
 	}
 
@@ -1817,8 +1817,8 @@ html.no-touch .menu__link:hover:before,
 }
 
 .intro__layer:nth-child(10) {
-	-webkit-animation: clip 5000ms -5000ms linear infinite, glitch10 1000ms -1255ms linear infinite;
-	animation: clip 5000ms -5000ms linear infinite, glitch10 1000ms -1255ms linear infinite;
+	-webkit-animation: clip 5000ms -5000ms linear infinite, glitch10 1000ms -1700ms linear infinite;
+	animation: clip 5000ms -5000ms linear infinite, glitch10 1000ms -1700ms linear infinite;
 }
 
 @-webkit-keyframes glitch10 {
@@ -1840,14 +1840,14 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	90% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(5px);
-		transform: translateX(5px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #fff;
 	}
 
@@ -1876,14 +1876,14 @@ html.no-touch .menu__link:hover:before,
 	}
 
 	90% {
-		-webkit-transform: translateX(0px);
-		transform: translateX(0px);
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
 		color: #AC1212;
 	}
 
 	95% {
-		-webkit-transform: translateX(5px);
-		transform: translateX(5px);
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
 		color: #fff;
 	}
 
@@ -2219,6 +2219,11 @@ html.no-touch .menu__link:hover:before,
 	margin-bottom: 12px;
 }
 
+.team-item:hover .team-item__img img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
 .socials {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2507,11 +2512,6 @@ html.no-touch .footer-bot__links a:hover {
 		-o-transition: opacity 0.2s;
 		transition: opacity 0.2s;
 		opacity: 0;
-	}
-
-	.team-item:hover .team-item__img img {
-		-webkit-filter: grayscale(0);
-		filter: grayscale(0);
 	}
 
 	.team-item:hover .team-item__soc {

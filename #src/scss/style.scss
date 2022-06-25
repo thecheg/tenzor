@@ -697,6 +697,14 @@ svg {
 		&__pos {
 			
 		}
+		
+		&:hover & {
+			&__img {
+				& img {
+					filter:grayscale(0);
+				}
+			}
+		}
 
 		@media only screen and (min-width: 701px) {
 
@@ -712,11 +720,6 @@ svg {
 			}
 		
 			&:hover & {
-				&__img {
-					& img {
-						filter:grayscale(0);
-					}
-				}
 				&__soc {
 					opacity:1;
 				}
